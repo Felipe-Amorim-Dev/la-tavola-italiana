@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tavola-Italiana</title>
+
+    <link rel="stylesheet" href="/css/Style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu w-[100%] h-[200px] flex flex-row items-center md:items-end justify-center">
+            <img class="w-[260px] md:absolute md:top-[0] left-[0] pt-[30px] md:pt-[0]" src="/IMG/LOGO/Logo_out.png"
+                alt="">
+
+            <nav class="hidden md:flex py-4">
+                <a class="text-[2.5rem] text-[#194A2F] hover:text-[3rem] hover:px-2 hover:border-b-2 hover:border-[#BC4E29] transition-all"
+                    href="#Reserva">Reserva</a>
+                <a class="text-[2.5rem] text-[#194A2F] px-6 hover:text-[3rem] hover:px-8 hover:border-b-2 hover:border-[#BC4E29] transition-all"
+                    href="#Cardapio">Menu</a>
+                <a class="text-[2.5rem] text-[#194A2F] hover:text-[3rem] hover:px-2 hover:border-b-2 hover:border-[#BC4E29] transition-all"
+                    href="#Sobre">Sobre</a>
+            </nav>
+        </div>
+        <section class="hero-section w-[100%] h-[820px] md:h-[75vh]">
+            <div class="filter h-[100%] md:h-[75vh] bg-[#282828] opacity-[50%]"></div>
+
+            <article class="flex flex-row mx-[30px] md:mx-[0]">
+                <img class="hidden md:inline relative top-[-60vh] left-[20vw]" src="/IMG/Quadro-hero_section.png"
+                    alt="">
+
+                <div class="md:w-[800px] relative top-[-85vh] md:top-[-50vh] md:left-[23vw]">
+                    <h1 class="text-[2.5rem] text-center md:text-start md:text-[5rem] text-[#FFFFFF]">O verdadeiro sabor
+                        da Itália em cada detalhe.</h1>
+                    <p class="text-[1rem] text-center md:text-justify md:text-[1.8rem] text-[#FFFFFF] mb-[20px]">
+                        Descubra ma experiência gastronômica autêntica
+                        e apaixonante, inspirada nas tradições e paisagens italianas. Da mesa à alma, cada prato conta
+                        uma história.</p>
+                    <div class="justify-self-center md:justify-self-end">
+                        <a class="border-2 border-[#FAEED9] rounded-full bg-[#194A2F] text-[#FAEED9] px-12 md:px-24 py-2 hover:bg-[#BC4E29] hover:text-[#194A2F] hover:font-bold"
+                            href="#Cardapio">Explore nossos pratos</a>
+                    </div>
+
+                    <img class="md:hidden w-[260px] justify-self-center mt-[80px]" src="/IMG/Quadro-hero_section.png"
+                        alt="">
+                </div>
+            </article>
+        </section>
+    </header>
+
+    <main>
+        <section class="chamada flex flex-col justify-center items-center pt-[180px] pb-[30px] md:pb-[100px]">
+            <h2
+                class="md:w-[50vw] text-center text-[1.6rem] md:text-[2rem] text-[#BC4E29] text-[textFont] pb-4 mx-[15px] md:mx-[0]">
+                La Tavola Italiana — A arte
+                da boa mesa italiana</h2>
+            <p
+                class="md:w-[50vw] textFont text-center text-[#194A2F] text-[1.2rem] md:text-[1.5rem] mx-[15px] md:mx-[0]">
+                Bem-vindo a um espaço onde tradição,
+                elegância e sabor se encontram. Inspirado na herança das famílias
+                italianas e na sofisticação das grandes tavolas da Toscana, nosso restaurante convida você a uma
+                experiência gastronômica única e memorável.
+            </p>
+        </section>
+
+        <section id="Sobre" class="sobre w-[100%]">
+            <article class="flex flex-col md:flex-row justify-center items-center">
+                <div class="conteudo-sobre md:w-[800px] flex flex-col justify-center items-start mx-[15px] md:mx-[0]">
+                    <h2
+                        class="text-[1.6rem] md:text-[2.5rem] text-center md:text-start text-[#FAEED9] font-bold my-[20px] md:mx-[0]">
+                        Uma viagem aos sabores da Itália. Sem sair do
+                        lugar.</h2>
+                    <p class="text-[#FFFFFF] md:text-[1.5rem] text-justify textFont mx-[15px] md:mx-[0]">Na La Tavola
+                        Italiana, cada prato é
+                        uma celebração à cultura e ao sabor. Da escolha dos
+                        ingredientes
+                        à apresentação à mesa, cultivamos o cuidado em cada detalhe. Nosso menu combina receitas
+                        clássicas —
+                        como o ossobuco alla milanese, a lasagna alla bolognese e o tiramisù artesanal — com um ambiente
+                        que
+                        evoca a alma da Itália: acolhedor, refinado e apaixonado pela boa comida.
+                    </p>
+                </div>
+
+                <img class="w-[300px] md:w-[700px]" src="/IMG/LOGO/Logo.png" alt="">
+            </article>
+        </section>
+
+        <section id="Cardapio" class="menu-cardapio w-[100%]">
+            <div class="title">
+                <h2
+                    class="text-[3rem] md:text-[5rem] text-center md:text-start text-[#BC4E29] uppercase md:px-[300px] md:py-[100px] mt-[30px] md:mt-[0] textTitle">
+                    Menu</h2>
+            </div>
+
+            <article class="pizza">
+                <h3
+                    class="text-[2.6rem] text-[#194A2F] font-bold uppercase text-center pt-[60px] md:pt-[0] pb-[30px] md:pb-[100px]">
+                    Pizzas</h3>
+
+                <div class="flex flex-col md:flex-row justify-start items-start md:pb-[60px]">
+                    <div
+                        class="w-[100%] md:w-auto md:ps-[145px] md:mx-[0] flex flex-row justify-center items-center pb-[30px] md:pb-[0]">
+                        <img class="w-[45%] md:w-[100%] px-4 md:px-[0]" src="/IMG/pizza-round1.png" alt="">
+                        <img class="w-[45%] md:hidden px-4" src="/IMG/line-1-reverse.png" alt="">
+                    </div>
+
+                    <div class="conteudo-pizza text-center md:text-start md:w-[800px] md:ps-[80px] mx-[30px] md:mx-[0]">
+                        <h4 class="text-[1.8rem] text-[#BC4E29] font-bold uppercase pb-[40px]">Pizzas artesanais com
+                            alma italiana</h4>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[60px]">Na La Tavola
+                            Italiana, a
+                            pizza é mais
+                            que um prato —
+                            é um
+                            legado. Preparadas com massa de
+                            fermentação lenta, assadas em forno de pedra e finalizadas com ingredientes frescos e
+                            importados, nossas pizzas homenageiam as tradições napolitanas e romanas, com um toque
+                            contemporâneo e sofisticado.
+                        </p>
+
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[60px]">Da clássica
+                            Margherita
+                            ao sabor
+                            marcante da Tartufata, cada
+                            fatia é uma expressão autêntica
+                            do sabor italiano, servida com leveza, textura crocante e uma dose generosa de paixão.
+                        </p>
+
+                        <h4 class="text-[1.8rem] text-[#194A2F] font-bold uppercase pb-[20px]">Cardápio de Pizzas</h4>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[20px] md:pb-[0]">Todas as
+                            pizzas são individuais
+                            (30 cm), com
+                            massa artesanal de
+                            fermentação natural e borda leve e aerada.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="px-[30px] md:ps-[145px] flex flex-col md:flex-row justify-start items-center">
+                    <div class="md:pe-[80px]">
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Margherita Tradizionale</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Molho de tomates
+                            pelati
+                            italianos,
+                            mozzarella de búfala, manjericão fresco e azeite extravirgem.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Quattro Formaggi</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Mozzarella,
+                            gorgonzola,
+                            parmesão e
+                            stracchino sobre base de creme de leite fresco.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Tartufata</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Creme de trufas
+                            negras,
+                            mozzarella
+                            fior di latte, cogumelos frescos salteados e lascas de parmesão.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Prosciutto & Rúcula</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Mozzarella, presunto
+                            cru
+                            italiano
+                            (Parma), rúcula fresca, tomate confit e lascas de grana padano.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Diavola</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Molho de tomate,
+                            mozzarella, salame
+                            picante italiano e toque de pimenta calabresa.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Vegetariana alla Griglia</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Berinjela e abobrinha
+                            grelhadas,
+                            pimentões assados, cebola caramelizada e pesto artesanal.</p>
+                    </div>
+                    <div
+                        class="w-[100%] md:w-auto md:ps-[145px] md:mx-[0] flex flex-row justify-center items-center pb-[30px] md:pb-[0]">
+                        <img class="w-[45%] md:hidden px-4" src="/IMG/line-1.png" alt="">
+                        <img class="w-[45%] md:w-[100%] px-4 md:px-[0] md:pe-[145px]" src="IMG/pizza-round2.png" alt="">
+                    </div>
+
+            </article>
+
+            <div class="w-[100%] flex justify-start items-center">
+                <img class="hidden md:inline w-[500px] md:ps-[140px]" src="/IMG/line-1.png" alt="">
+                <img class="md:hidden w-[100%] justify-self-center" src="/IMG/line-2.png" alt="">
+            </div>
+
+            <article class="Massa">
+                <h3 class="text-[2.6rem] text-[#194A2F] font-bold uppercase text-center pb-[30px] md:pb-[100px]">Massas
+                </h3>
+
+                <div class="flex flex-col md:flex-row justify-center items-start pb-[30px] md:pb-[60px]">
+                    <div class="conteudo-massa md:w-[900px] mx-[15px] md:mx-[0] md:ps-[145px]">
+                        <h4
+                            class="text-[1.8rem] text-[#BC4E29] text-center md:text-start font-bold uppercase pb-[20px] md:pb-[40px]">
+                            Massas artesanais que
+                            honram a tradição italiana</h4>
+                        <p
+                            class="textFont text-[#262626] md:text-[1.3rem] text-justify mx-[15px] md:mx-[0] pb-[20px] md:pb-[60px]">
+                            Na La Tavola Italiana,
+                            as massas são
+                            preparadas como manda a tradição: artesanalmente, com farinha de grano duro, ovos frescos e
+                            muito respeito pelas receitas que atravessaram gerações.
+                        </p>
+
+                        <p
+                            class="textFont text-[#262626] md:text-[1.3rem] text-justify mx-[15px] md:mx-[0] pb-[20px] md:pb-[60px]">
+                            Cada prato é finalizado
+                            com molhos
+                            ricos e ingredientes nobres, refletindo a diversidade e sofisticação da gastronomia italiana
+                            — das colinas da Toscana às margens do Tibre, em Roma.
+                        </p>
+
+                        <p
+                            class="textFont text-[#262626] md:text-[1.3rem] text-justify mx-[15px] md:mx-[0] pb-[20px] md:pb-[60px]">
+                            Sabores autênticos,
+                            texturas perfeitas
+                            e uma apresentação que convida à celebração da boa mesa.
+                        </p>
+
+                        <div class="md:hidden w-[120px] justify-self-center pb-[20px]">
+                            <img src="/IMG/Massa-Quadro.png" alt="">
+                        </div>
+
+                        <h4
+                            class="text-[1.8rem] text-[#194A2F] text-center md:text-start font-bold uppercase pb-[20px]">
+                            Cardápio de Massas</h4>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] mx-[15px] md:mx[0] text-justify">TMassas
+                            frescas produzidas
+                            diariamente, servidas
+                            com molho artesanal e acompanhadas de pão italiano tostado com azeite.
+                        </p>
+                    </div>
+
+                    <div class="hidden md:inline ps-[100px] pe-[145px]">
+                        <img src="/IMG/Massa-Quadro.png" alt="">
+                    </div>
+                </div>
+
+                <div class="md:ps-[145px] flex flex-col md:flex-row justify-start items-center">
+                    <div class="md:w-[900px] md:ps-[170px] mx-[30px] md:mx-[0]">
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Tagliatelle al Ragù di Manzo</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Massa longa com ragu
+                            de
+                            carne bovina
+                            cozido lentamente em vinho tinto, tomate San Marzano e ervas frescas.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Ravioli di Ricotta al Limone</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Ravioli artesanal
+                            recheado com ricota
+                            fresca, toque de limão siciliano, servido com manteiga de sálvia e nozes tostadas.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Spaghetti alla Carbonara</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Spaghetti com
+                            guanciale
+                            crocante, gema
+                            cremosa, pecorino romano e pimenta-do-reino moída na hora.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Gnocchi alla Sorrentina</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Nhoque de batata ao
+                            molho de tomate
+                            pelado, mozzarella gratinada e folhas de manjericão.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Fettuccine ai Funghi Porcini</h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Fettuccine fresco com
+                            cogumelos
+                            porcini italianos, cebola-roxa, vinho branco e creme leve de parmesão.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                            Lasagna alla Bolognese Classica
+                        </h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Camadas de massa
+                            artesanal, ragu à
+                            bolonhesa, molho bechamel e mozzarella gratinada.</p>
+
+                        <h3
+                            class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                            Prato Especial da Casa (sugestão do
+                            chef)
+                        </h3>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Massas sazonais com
+                            ingredientes
+                            frescos do dia, selecionados de acordo com a estação. Consultar disponibilidade</p>
+                    </div>
+            </article>
+
+            <div class="w-[100%] flex justify-end items-center">
+                <img class="hidden md:inline w-[500px] md:pe-[140px]" src="/IMG/line-1-reverse.png" alt="">
+                <img class="md:hidden w-[100%] justify-self-center" src="/IMG/line-2.png" alt="">
+            </div>
+
+            <article class="Sobremesa pb-[160px]">
+                <h3 class="text-[2.6rem] text-[#194A2F] font-bold uppercase text-center pb-[30px] md:pb-[100px]">
+                    Sobremesas</h3>
+
+                <div class="flex flex-col md:flex-row justify-start items-center pb-[60px]">
+                    <div class="w-[100%] md:w-[60%] md:ps-[145px] mb-[20px] md:mb-[0]">
+                        <img class="rounded-xl" src="/IMG/prato-5.jpg" alt="">
+                    </div>
+
+                    <div
+                        class="conteudo-pizza md:w-[70%] text-center md:text-start mx-[30px] md:mx-[0] md:ps-[80px] md:pe-[145px]">
+                        <h4 class="text-[1.8rem] text-[#BC4E29] font-bold uppercase pb-[40px]">Doces que encerram a
+                            refeição com poesia</h4>
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[20px] md:pb-[40px]">As
+                            sobremesas da La
+                            Tavola Italiana
+                            são uma homenagem à doçura das tradições familiares italianas.
+                        </p>
+
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[40px]">Feitas com
+                            ingredientes
+                            selecionados e
+                            apresentadas com delicadeza, cada criação busca mais do que apenas agradar ao paladar — ela
+                            desperta memórias, sensações e um sentimento de aconchego.
+                        </p>
+
+                        <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[20px] md:pb-[40px]">Do
+                            clássico tiramisù ao
+                            delicado
+                            semifreddo, nossas sobremesas são o final perfeito para uma experiência memorável.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="md:w-[100%] md:ps-[145px] flex flex-col justify-start items-start">
+                    <div class="md:w-[100%] md:me-[80px]">
+                        <div
+                            class="md:w-[100%] flex flex-col md:flex-row justify-center items-center pb-[40px] mx-[30px] md:mx-[0]">
+                            <div class="md:w-[100vw]">
+                                <h4
+                                    class="text-[1.8rem] text-[#194A2F] text-center md:text-start font-bold uppercase pb-[20px]">
+                                    Cardápio de
+                                    Sobremesas
+                                </h4>
+                                <p class="textFont text-[#262626] md:text-[1.3rem] text-justify">Todas as sobremesas são
+                                    preparadas
+                                    artesanalmente, com receitas autênticas e apresentação refinada.
+                                </p>
+                            </div>
+                            <div class="hidden md:inline w-[100%] me-[145px]">
+                                <img class="w-[100%]" src="/IMG/line-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[100%] flex flex-col md:flex-row">
+                        <div class="conteudo-menu-sobremesa mx-[30px] md:mx-[0]">
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                                Tiramisù della Casa</h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">O clássico
+                                italiano
+                                feito em
+                                camadas
+                                de
+                                mascarpone, biscoitos savoiardi embebidos em café e finalizado com cacau belga.</p>
+
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                                Panna Cotta al Limoncello</h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Sobremesa cremosa
+                                à
+                                base de creme
+                                de
+                                leite, com calda de limoncello artesanal e raspas de limão siciliano.</p>
+
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                                Affogato al Caffè</h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Gelato de
+                                baunilha
+                                servido com uma
+                                dose
+                                quente de café espresso italiano e um toque de amaretto.</p>
+
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                                Semifreddo ai Frutti di Bosco
+                            </h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Sobremesa gelada
+                                à
+                                base de creme e
+                                frutas
+                                vermelhas, servida com calda de frutas silvestres e folhas de hortelã.</p>
+
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#BC4E29] font-bold uppercase">
+                                Cannoli Siciliani</h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Massa crocante
+                                recheada com creme
+                                de
+                                ricota fresca, gotas de chocolate amargo e pistaches torrados.</p>
+
+                            <h3
+                                class="text-[1.6rem] md:text-[1.8rem] text-center md:text-start text-[#194A2F] font-bold uppercase">
+                                Dolce della Casa (sobremesa
+                                sazonal)
+                            </h3>
+                            <p class="textFont text-[#262626] md:text-[1.3rem] text-justify pb-[30px]">Criação especial
+                                do
+                                chef com
+                                sabores
+                                da
+                                estação e inspiração italiana. Consultar disponibilidade.</p>
+                        </div>
+                        <div class="sobremesa-menu-img w-[50%] ps-[80px] pe-[145px]">
+                            <img class="hidden md:inline w-[80%] rounded-xl mb-[10%]" src="/IMG/prato-4.jpg" alt="">
+                            <img class="w-[80%] rounded-xl" src="/IMG/prato-12.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="w-[100%]">
+                <img src="/IMG/filter-end-section.png" alt="">
+            </div>
+        </section>
+
+        <section id="Reserva" class="md:mb-[100px]">
+            <article class="mx-[30px] md:mx-[145px]">
+                <h2 class="text-[4rem] text-center md:text-start font-bold uppercase text-[#BC4E29]">Reserva</h2>
+                <h3 class="text-[2rem] text-center md:text-start text-[#194A2F]">Sua mesa está pronta.</h3>
+                <p class="text-justify md:text-[1.3rem] textFont">Na La Tavola Italiana, cada refeição é pensada para
+                    ser
+                    especial — seja
+                    um jantar romântico, um
+                    almoço em família, uma celebração ou apenas o prazer de saborear a verdadeira cozinha italiana.
+                    Reserve sua mesa com antecedência e desfrute de um atendimento personalizado em um ambiente elegante
+                    e acolhedor.
+                </p>
+
+                <div class="flex flex-col md:flex-row mt-[30px]">
+                    <div class="hidden md:inline flex flex-col justify-center items-center">
+                        <iframe class="rounded-xl"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91064.87499732236!2d11.24928520528363!3d44.499228921793396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1747925917389!5m2!1spt-BR!2sbr"
+                            width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div class="map-info w-[90%] relative top-[-150px] flex flex-row bg-[#F5F5F5] rounded-xl">
+                            <div class="p-4">
+                                <h4 class="text-[1.2rem]">Endereço</h4>
+                                <p class="text-[16px] textFont">Via San Lorenzo, 148</p>
+                                <p class="text-[16px] textFont">40125 Bologna, Emilia-Romagna - Italia</p>
+                            </div>
+                            <div class="p-4">
+                                <h4 class="text-[1.2rem]">Email</h4>
+                                <p class="text-[16px] textFont">reservas@latavolaitaliana.com</p>
+                                <h4 class="text-[1.2rem]">Telefone</h4>
+                                <p class="text-[16px] textFont">+39 051 987 6543</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:ms-[60px]">
+                        <div>
+                            <h2 class="text-[2.5rem] md:text-[4rem] text-center md:text-start text-[#BC4E29]">Faça sua
+                                reserva</h2>
+                            <h3 class="text-[1.8rem] md:text-[2rem] text-center md:text-start text-[#194A2F] mb-[15px]">
+                                Preencha o formulário para fazer sua
+                                reserva</h3>
+                        </div>
+
+                        <form class="flex flex-col justify-start items-start">
+                            <label class="relative top-[33px] left-[30px]" id="labelNome" for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome"
+                                class="w-[100%] md:w-[80%] bg-white rounded-xl border border-[#194A2F] focus:border-[#194A2F] focus:ring-2 focus:ring-[#BC4E29] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-[15px]">
+
+                            <label class="relative top-[33px] left-[30px]" id="labelEmail" for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-[100%] md:w-[80%] bg-white rounded-xl border border-[#194A2F] focus:border-[#194A2F] focus:ring-2 focus:ring-[#BC4E29] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-[15px]">
+
+                            <label class="relative top-[33px] left-[30px]" id="labelContato"
+                                for="contato">Telefone</label>
+                            <input type="text" id="contato" name="contato"
+                                class="w-[100%] md:w-[80%] bg-white rounded-xl border border-[#194A2F] focus:border-[#194A2F] focus:ring-2 focus:ring-[#BC4E29] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-[15px]">
+
+                            <div class="w-[100%] items-self-center">
+                                <button
+                                    class="w-[100%] md:w-auto mt-[10px] md:mt-[20px] px-18 py-2 border-2 border-[#194A2F] rounded-full text-[1.2rem] text-[#194A2F] hover:bg-[#194A2F] hover:text-[white]">Reservar</button>
+                            </div>
+
+                            <span class="text-center md:text-start md:ms-[20px]">Reservas para grupos e eventos
+                                especiais sob consulta.</span>
+                        </form>
+                        <iframe class="md:hidden w-[90%] rounded-xl justify-self-center items-self-center mt-[20px] mb-[60px] md:mb-[0] md:mt-[0]"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91064.87499732236!2d11.24928520528363!3d44.499228921793396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1747925917389!5m2!1spt-BR!2sbr"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-[#194A2F]">
+        <div class="w-[100%] h-[10px] bg-[#BC4E29]"></div>
+        <div class="flex flex-col md:flex-row justify-center md:justify-around items-center md:items-start my-[40px] md:mx-[145px]">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-[150px]" src="/IMG/LOGO/Logo.png" alt="">
+                <p class="w-[90%] md:w-[250px] text-[1rem] text-center textFont text-[white]">A verdadeira experiência da
+                    gastronomia italiana no coração
+                    de Bolonha. Sabores autênticos, ambiente acolhedor e o prazer de bem receber.</p>
+            </div>
+            <div class="w-[90%] md:w-auto flex flex-col justify-center md:justify-start items-center md:items-start mt-[20px]">
+                <h4 class="text-[1.5rem] text-[white]">Endereço</h4>
+                <p class="textFont text-[white]">Via San Lorenzo, 148 40125 Bologna, Emilia-Romagna - Italia</p>
+                <h4 class="text-[1.5rem] text-[white]">Horários de Funcionamento</h4>
+                <p class="textFont text-[white]">Segunda a Sexta: 12h - 15h | 18h - 23h Sábado e Domingo: 12h - 23h</p>
+            </div>
+            <div class="flex flex-row md:flex-col justify-start items-start mt-[40px]">
+                <a class="p-4 text-[1.5rem] text-[white] font-bold hover:text-[#BC4E29]" href="#Sobre">Sobre nós</a>
+                <a class="p-4 text-[1.5rem] text-[white] font-bold hover:text-[#BC4E29]" href="#Cardapio">Menu</a>
+                <a class="p-4 text-[1.5rem] text-[white] font-bold hover:text-[#BC4E29]" href="#Reserva">Reserva</a>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <div>
+                    <h4 class="text-[1.5rem] text-[white]">Siga-nos</h4>
+                </div>
+                <div class="flex flex-row justify-center items-center">
+                    <img class="w-[62px] m-2" src="/IMG/ICO/instagram-svgrepo-com.svg" alt="">
+                    <img class="w-[62px] m-2" src="/IMG/ICO/twitter-rounded-svgrepo-com.svg" alt="">
+                    <img class="w-[62px] m-2" src="/IMG/ICO/facebook-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-center py-[30px] bg-[#FAEED9]">
+            <div class="w-[90%] md:w-auto flex flex-col justify-center items-start md:ms-[145px]">
+                <p class="textFont">© 2025 La Tavola Italiana. Todos os direitos reservados.</p>
+                <p class="textFont">Este site é meramente ilustrativo. Marca e endereço fictícios para fins de
+                    demonstração.</p>
+            </div>
+            <img class="w-[100px] mt-[10px] md:mt-[0] md:me-[145px]" src="/IMG/LOGO/LogoMarca_Felipe(Black).png" alt="">
+        </div>
+    </footer>
+</body>
+
+<script src="/JS/formControl.js"></script>
+
+</html>

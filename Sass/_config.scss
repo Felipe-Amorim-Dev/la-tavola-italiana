@@ -1,0 +1,52 @@
+@font-face {
+    font-family: titleFont;
+    src: url(/FONTS/Italiana-Regular.ttf);
+}
+
+@font-face {
+    font-family: textFont;
+    src: url(/FONTS/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: textBoldFont;
+    src: url(/FONTS/Roboto-Bold.ttf);
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+        body{
+            background-color: #FAEED9;
+        }
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: titleFont;
+}
+
+h2, h3, h4, h5, h6{
+ 
+    font-weight: bold;
+}
+
+a{
+    font-family: titleFont;
+}
+
+p{
+    font-family: titleFont; 
+}
+
+.textFont{
+    font-family: textFont;
+}
+
+.textTitle{
+    font-family: titleFont;
+}
+
+
+

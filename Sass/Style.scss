@@ -1,0 +1,34 @@
+@import '_config';
+
+.hero-section{
+    background-image: url(/IMG/apresentation-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;        
+}
+
+.sobre{
+    background-image: url(/IMG/sobre-BG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-cardapio{
+    background-image: url(/IMG/BG-menu.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.labelout{
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+}
+
+.labelin{
+    position: relative;
+    top: 33px;
+    transition: 0.5s;
+}
