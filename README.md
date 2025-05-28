@@ -15,13 +15,14 @@
 ## 🚀 Tecnologias utilizadas
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+![Figma](https://img.shields.io/badge/Figma-Design-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-Styling-%23CD6799?style=for-the-badge&logo=sass&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Scripting-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-%230078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -31,9 +32,7 @@ Uma interface moderna e responsiva.
 
 Este projeto foi desenvolvido com o objetivo de apresentar um restaurante italiana de forma elegante, combinando design, tipografia limpa e contraste visual estratégico. A paleta foi pensada nas cores da Itália, com detalhes em tons de verde, vermelho, branco e bege.
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-🔗 **Acesse aqui:** [Figma-Template](https://www.figma.com/community/file/1504731116846105230/template-la-tavola-italiana)
+[![Figma Template](https://img.shields.io/badge/Figma-Template-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1504731116846105230/template-la-tavola-italiana)
 
 ---
 
@@ -41,9 +40,7 @@ Este projeto foi desenvolvido com o objetivo de apresentar um restaurante italia
 
 A página está hospedada e disponível gratuitamente na Netlify:
 
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-
-🔗 **Acesse aqui:** [tavolaitaliana.netlify.app](https://tavolaitaliana.netlify.app/)
+[![Deploy - Netlify](https://img.shields.io/badge/Netlify-Página_Web-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://tavolaitaliana.netlify.app/)
 
 ---
 
