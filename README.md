@@ -1,86 +1,61 @@
+<p align="center"><img src="Apresenta%C3%A7%C3%A3o/Apresenta%C3%A7%C3%A3o%20mult-devices.png" alt="Imagem do projeto la-tavola-italiana" width="100%" /></p>
 
+<h1 align="center">🍝 La Tavola Italiana</h1>
 
-<h1 align="center">🍷 La Tavola Italiana</h1>
+<p align="center"><em>Website demonstrativo de restaurante italiano fictício.</em></p>
 
+<p align="center">🇧🇷 Português | 🇺🇸 <a href="README.en.md">English</a></p>
 
-<p align="center">
-  <img src="Apresentação/Apresentação mult-devices.png" alt="Mockup multidevices da La Tavola Italiana" width="100%"/>       
-  <img src="Apresentação/Apresentação Web.png" alt="Mockup multidevices da La Tavola Italiana" width="100%"/>   
-</p>
+<p align="center"><img src="https://img.shields.io/badge/license-MIT-006bed?style=flat-square" alt="MIT" /> <img src="https://img.shields.io/github/last-commit/Felipe-Amorim-Dev/la-tavola-italiana?style=flat-square&color=006bed" alt="Last commit" /></p>
 
-<p align="start">
-  Bem-vindo ao repositório da **La Tavola Italiana**, a página fictícia de um restaurante italiano! Este projeto foi desenvolvido para apresentar o cardápio, ambiente e informações de contato de forma elegante e responsiva.
-</p>
-
-## 🚀 Tecnologias utilizadas
-
-Este projeto foi desenvolvido com as seguintes tecnologias:
-
-![Figma](https://img.shields.io/badge/Figma-Design-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-Markup-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-Styling-%23CD6799?style=for-the-badge&logo=sass&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Scripting-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-Editor-%230078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<p align="center"><a href="#sobre">Sobre</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#como-rodar">Como rodar</a> • <a href="#licenca">Licença</a> • <a href="#autor">Autor</a></p>
 
 ---
 
-## 🖌️ Template (WireFrame)
+<a id="sobre"></a>
+## 📖 Sobre
 
-Uma interface moderna e responsiva.
+Landing page responsiva que apresenta o cardápio de um restaurante fictício, com seções de massas, pizzas, sobremesas e formulário ilustrativo de reserva.
 
-Este projeto foi desenvolvido com o objetivo de apresentar um restaurante italiano de forma elegante, combinando design, tipografia limpa e contraste visual estratégico. A paleta foi pensada nas cores da Itália, com detalhes em tons de verde, vermelho, branco e bege.
+## ✨ Funcionalidades
 
-[![Figma Template](https://img.shields.io/badge/Figma-Template-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1504731116846105230/template-la-tavola-italiana)
+- Apresentação de cardápio
+- Formulário ilustrativo de reserva
+- Layout responsivo
 
----
+<a id="tecnologias"></a>
+## 🛠️ Tecnologias
 
-## 🌐 Hospedagem
+![HTML5](https://img.shields.io/badge/HTML5-006bed?style=for-the-badge) ![CSS3](https://img.shields.io/badge/CSS3-006bed?style=for-the-badge) ![Sass](https://img.shields.io/badge/Sass-006bed?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/JavaScript-006bed?style=for-the-badge)
 
-A página está hospedada e disponível gratuitamente na Netlify:
+## 📦 Pré-requisitos
 
-[![Deploy - Netlify](https://img.shields.io/badge/Netlify-Página_Web-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://tavolaitaliana.netlify.app/)
+Navegador moderno.
 
----
+<a id="como-rodar"></a>
+## 🚀 Como rodar
 
-## 📱 Sobre o projeto
+```bash
+git clone https://github.com/Felipe-Amorim-Dev/la-tavola-italiana.git
+cd la-tavola-italiana
+```
 
-A página da **La Tavola Italiana** foi desenvolvida com foco em:
+Abra `index.html` no navegador.
 
-- **Design responsivo** para se adaptar a qualquer dispositivo
-- **Apresentação de pratos e informações do restaurante fictício**
-- **Componentes reutilizáveis** com Tailwind e SASS
-- **Composição visual inspirada em restaurantes italianos**
+## 📸 Demonstração
 
-O layout foi planejado para destacar a cultura italiana, apresentar sua gastronomia requintada e clássica.
+[Acessar projeto](https://tavolaitaliana.netlify.app/)
 
----
+<a id="licenca"></a>
+## 📄 Licença
 
-## 💡 Funcionalidades
+Distribuído sob a [licença MIT](LICENSE).
 
-✔ Destaque das Cores da Itália  
-✔ Menu com os cardápios de Pizzas, Massas e Sobremesas  
-✔ Formulário ilustrativo de reserva, sem confirmação real nem integração de agendamento comprovada  
-✔ Footer com dados de contato e termos
+<a id="autor"></a>
+## 👤 Autor
 
----
+**Felipe Figueiredo Amorim** — Desenvolvedor Full Stack.
 
-## 📌 Como rodar localmente
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Amorim-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/felipe-amorim-dev/) [![E-mail](https://img.shields.io/badge/E--mail-contato-006bed?style=for-the-badge)](mailto:felipe.f.amorim@outlook.com)
 
-1. Clone o repositório:  
-   `git clone https://github.com/Felipe-Amorim-Dev/la-tavola-italiana.git`
-
-2. Acesse o diretório:  
-   `cd la-tavola-italiana`
-
-3. Abra o arquivo `index.html` no seu navegador.
-
----
-
-## 🧑‍💻 Autor
-
-Desenvolvido por [Felipe Figueiredo Amorim @felipe-amorim-dev].  
-Conecte-se no [LinkedIn](https://www.linkedin.com/in/felipe-amorim-dev/) ou veja mais projetos no [GitHub](https://github.com/Felipe-Amorim-Dev).
-
-
+<p align="center"><strong>Obrigado por visitar! / Thanks for visiting!</strong></p>
