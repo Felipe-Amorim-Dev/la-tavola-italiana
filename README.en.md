@@ -46,6 +46,17 @@ Open `index.html` in a browser.
 
 [Visit the project](https://tavolaitaliana.netlify.app/)
 
+## 🏗️ Project organization and implementation
+
+- index.html contains the restaurant presentation, menu, dishes and illustrative reservation section.
+- Sass/Style.scss and Sass/_config.scss contain presentation styles and configuration.
+- IMG stores food photography, logos, backgrounds and decorative assets.
+- JS/formControl.js contains the interface form behavior.
+
+### Rendering and assets
+
+The central project assets can be found in `JS/formControl.js`. The entry point is `index.html`.
+
 <a id="licenca"></a>
 ## 📄 License
 
