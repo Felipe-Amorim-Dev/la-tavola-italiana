@@ -4,8 +4,8 @@
 
 
 <p align="center">
-  <img src="Apresentação/Apresentação mult-devices.png" alt="Mockup multidevices do SmartWatch" width="100%"/>       
-  <img src="Apresentação/Apresentação Web.png" alt="Mockup multidevices do SmartWatch" width="100%"/>   
+  <img src="Apresentação/Apresentação mult-devices.png" alt="Mockup multidevices da La Tavola Italiana" width="100%"/>       
+  <img src="Apresentação/Apresentação Web.png" alt="Mockup multidevices da La Tavola Italiana" width="100%"/>   
 </p>
 
 <p align="start">
@@ -30,7 +30,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma interface moderna e responsiva.
 
-Este projeto foi desenvolvido com o objetivo de apresentar um restaurante italiana de forma elegante, combinando design, tipografia limpa e contraste visual estratégico. A paleta foi pensada nas cores da Itália, com detalhes em tons de verde, vermelho, branco e bege.
+Este projeto foi desenvolvido com o objetivo de apresentar um restaurante italiano de forma elegante, combinando design, tipografia limpa e contraste visual estratégico. A paleta foi pensada nas cores da Itália, com detalhes em tons de verde, vermelho, branco e bege.
 
 [![Figma Template](https://img.shields.io/badge/Figma-Template-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1504731116846105230/template-la-tavola-italiana)
 
@@ -49,9 +49,9 @@ A página está hospedada e disponível gratuitamente na Netlify:
 A página da **La Tavola Italiana** foi desenvolvida com foco em:
 
 - **Design responsivo** para se adaptar a qualquer dispositivo
-- **Apresentação clara dos diferenciais** do produto
+- **Apresentação de pratos e informações do restaurante fictício**
 - **Componentes reutilizáveis** com Tailwind e SASS
-- **Estética Cultural** com destaque para o produto
+- **Composição visual inspirada em restaurantes italianos**
 
 O layout foi planejado para destacar a cultura italiana, apresentar sua gastronomia requintada e clássica.
 
@@ -61,7 +61,7 @@ O layout foi planejado para destacar a cultura italiana, apresentar sua gastrono
 
 ✔ Destaque das Cores da Itália  
 ✔ Menu com os cardápios de Pizzas, Massas e Sobremesas  
-✔ Formulário para Reserva com endereço fictício  
+✔ Formulário ilustrativo de reserva, sem confirmação real nem integração de agendamento comprovada  
 ✔ Footer com dados de contato e termos
 
 ---
@@ -69,10 +69,10 @@ O layout foi planejado para destacar a cultura italiana, apresentar sua gastrono
 ## 📌 Como rodar localmente
 
 1. Clone o repositório:  
-   `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+   `git clone https://github.com/Felipe-Amorim-Dev/la-tavola-italiana.git`
 
 2. Acesse o diretório:  
-   `cd nome-do-repositorio`
+   `cd la-tavola-italiana`
 
 3. Abra o arquivo `index.html` no seu navegador.
 
