@@ -46,6 +46,17 @@ Abra `index.html` no navegador.
 
 [Acessar projeto](https://tavolaitaliana.netlify.app/)
 
+## 🏗️ Organização e implementação do projeto
+
+- index.html organiza as seções de apresentação do restaurante, pratos, cardápio e reservas ilustrativas.
+- Sass/Style.scss e Sass/_config.scss concentram estilos e configurações de apresentação.
+- IMG reúne imagens gastronômicas, logotipos, fundos e elementos visuais da interface.
+- JS/formControl.js reúne a lógica relacionada ao comportamento do formulário de interface.
+
+### Estrutura e recursos
+
+Os principais arquivos e recursos estão em `JS/formControl.js`. O ponto de entrada é `index.html`.
+
 <a id="licenca"></a>
 ## 📄 Licença
 
